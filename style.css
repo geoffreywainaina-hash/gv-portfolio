@@ -46,28 +46,29 @@ header nav a:last-child:hover {
     background-color:transparent;
     color: #ff6b00;
 }
-.hero-section {
+.hero-container {
     display:flex;
     justify-content: space-between;
     align-items:center;
-    padding: 80px 10%;
-    gap: 50px;
-    min-height: 80vh;
-}
-.hero-info {
-    flex: 1.2;
-    max-width: 650px;
-}
-.hero-info .title-heading {
+    padding: 80px 50px;
+    gap: 60px;
+    background-color:#000000;
     color:#ffffff;
-    font-weight:800;
-    line-height:1.2;
-    margin-bottom:20px;
 }
-.hero-info .description {
-    color:#b3b3b3;
+.hero-content, .hero-image {
+    flex: 1.2;
+    
+}
+.hero-content h3 {
+    font-weight:800;
+    margin-bottom:15px;
+    font-size: 3rem;
+}
+.hero-description {
+    color:#e0e0e0;
+    margin-bottom:24px;
     font-size: 16px;
-    line-height:1.6;
+    font-weight:600;
 }
 .hero-image {
     flex:0.8;
@@ -76,10 +77,8 @@ header nav a:last-child:hover {
     align-items:center;
 }
 .profile-logo {
-    width: 50%;
-    height: 50%;
-    aspect-ratio: 1/1;
-    object-fit:cover;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    border: 4px solid #ffffff;
+    object-fit: cover;
 }
