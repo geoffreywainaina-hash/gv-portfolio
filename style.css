@@ -46,35 +46,19 @@ header nav a:last-child:hover {
     background-color:transparent;
     color: #ff6b00;
 }
-.hero-container {
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    padding: 80px 50px;
-    gap: 60px;
-    background-color:#000000;
+.hero-section-wrapper {
+    min-height: 100vh;
+    background-color: #000000;
     color:#ffffff;
-}
-.hero-content, .hero-image {
-    flex: 1.2;
-    
-}
-.hero-content h3 {
-    font-weight:800;
-    margin-bottom:15px;
-    font-size: 3rem;
-}
-.hero-description {
-    color:#e0e0e0;
-    margin-bottom:24px;
-    font-size: 16px;
-    font-weight:600;
-}
-.hero-image {
-    flex:0.8;
     display:flex;
-    justify-content:center;
     align-items:center;
+    padding: 2rem;
+}
+.hero-left-side {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    text-align: left;
 }
 .profile-logo {
     width: 300px;
@@ -82,3 +66,5 @@ header nav a:last-child:hover {
     border-radius: 50%;
     object-fit: cover;
 }
+
+
