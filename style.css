@@ -1,18 +1,31 @@
 body {
     background-color:black;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    scrollbar-width: none;
 }
 header {
     background-color: #000000;
     display:flex;
     justify-content:space-between;
+
     align-items:center;
     padding: 20px 8%;
+    border-bottom: 1px solid grey;
 
 }
+
 header h1 {
     font-size: 24px;
     font-weight:800;
@@ -27,6 +40,7 @@ header nav a {
     color:#ffffff;
     text-decoration:none;
     font-size: 16px;
+
     font-weight:600;
     transition: color 0.3s ease;
 }
@@ -37,34 +51,67 @@ header nav a:last-child {
     background-color:#ff6b00;
     color:#ffffff;
     padding:10px 22px;
+
     border-radius:25px;
     font-weight:600;
     border: 2px solid transparent;
+
     transition: all 0.3s ease;
 }
 header nav a:last-child:hover {
     background-color:transparent;
     color: #ff6b00;
 }
-.hero-section-wrapper {
-    min-height: 100vh;
-    background-color: #000000;
-    color:#ffffff;
-    display:flex;
-    align-items:center;
-    padding: 2rem;
-}
-.hero-left-side {
+
+#hero {
+    min-height: calc(100vh - 100px);
+    /* border: 5px solid red; */
     display: flex;
-    flex-direction:column;
-    align-items: flex-start;
-    text-align: left;
-}
-.profile-logo {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    object-fit: cover;
+
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+
+    margin-top: 25px;
+
 }
 
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
 
+}
+
+.hero-content h3 {
+    color: grey;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.big {
+    color: #ff6b00;
+    font-size: 30px;
+    font-weight: bolder;
+    
+    margin-top: -5px;
+}
+
+.small {
+    line-height: 1.5;
+    font-size: 30px;
+    margin-top: -18px;
+}
+
+.hero-image {
+    /* height: 750px; */
+    width: 600px;
+    padding-right: 25px;
+}
+
+.hero-image img {
+    width: 100%;
+    display: block;
+    /* background-color: black; */
+}
