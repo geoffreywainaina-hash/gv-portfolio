@@ -92,7 +92,7 @@ header nav a:last-child:hover {
 
 .big {
     color: #ff6b00;
-    font-size: 30px;
+    font-size: 49px;
     font-weight: bolder;
     
     margin-top: -5px;
@@ -106,7 +106,7 @@ header nav a:last-child:hover {
 
 .hero-image {
     /* height: 750px; */
-    width: 600px;
+    width: 500px;
     padding-right: 25px;
 }
 
@@ -114,4 +114,88 @@ header nav a:last-child:hover {
     width: 100%;
     display: block;
     /* background-color: black; */
+}
+
+#testimonials {
+    background-color: #171717;
+    /* color: #991B1B; */
+    min-height: 80vh;
+    padding: 25px;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testimonial-image {
+    width: 350px;
+    /* display: block; */
+    height: 350px;
+}
+
+.testimonial-image img {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+.testimonial-content {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+
+    /* border: 3px solid yellow; */
+    padding: 15px;
+}
+
+.testimonial-content h3 {
+    color: #ff6b00;
+    font-size: 55px;
+    margin-top: -5px;
+}
+
+.testimonial-content p {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-top: -15px;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testimonial-card {
+    min-width: 65px;
+    min-height: 25px;
+    border-radius: 15px;
+
+    border: 1px solid grey;
+    background-color: #252525;
+    padding: 25px;
+
+    transition: 0.6s ease;
+}
+
+.testimonial-card p {
+    color: #ff6b00;
+    transition: 0.6s ease;
+}
+
+span {
+    color: #991b1b;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    background-color: #ff6b00;
+}
+
+.testimonial-card:hover p {
+    color: white;
+}
+
+.testimonial-card:hover span {
+    color: #1a1a1a;
 }
