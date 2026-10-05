@@ -20,4 +20,11 @@ contains information about the project and how to contribute.
 .Responsive website design
 .clean and user- friendly interface
 .Interactive JavaScript features
-.Team-based developmen
+.Team-based development
+
+##How to Run the Project
+.Clone the repository.
+.open the project folder in VS Code.
+.Open index.html in your browser.
+.make your changes in the appropriate file
+.Test your changes before pushing them to GitHub
