@@ -28,3 +28,7 @@ contains information about the project and how to contribute.
 .Open index.html in your browser.
 .make your changes in the appropriate file
 .Test your changes before pushing them to GitHub
+
+##Contributors
+.Virginia
+.Geoffrey
