@@ -3,13 +3,15 @@
 A collaborative web development project built by a team using HTML,CSS, and javaScript.The purpose of this project is to practice team work.
 
 ## Live Demo Link
-[GitHub pages link] (https://geoffreywainaina-hash.github.io/Akan-name/)
+ Here's a live link to our project 
+ 
 
 ## Technologies Used
 - HTML
 - CSS
 - JavaScript
 - GitHub
+
 ## Project Structure
 - index.html
 contains the structure and content of the website
