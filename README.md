@@ -39,3 +39,13 @@ contains information about the project and how to contribute.
 ## Contributors
 - Virginia
 - Geoffrey
+
+### What we have learned
+
+- We have learned how to collaborate effectively using Git and GitHub, including branching, merging, and working with remote repositories. 
+- We have also improved our understanding of builfding responsive portfolio layouts using HTML and CSS while working as a team. 
+
+#### Clone the repository
+
+```bash
+git@github.com:geoffreywainaina-hash/gv-portfolio.git
