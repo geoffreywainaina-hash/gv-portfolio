@@ -1,9 +1,8 @@
 body {
     background-color:black;
     color: white;
-    /* font-family: Arial, Helvetica, sans-serif; */
-
     margin: 0;
+
     padding: 0;
     box-sizing: border-box;
 }
@@ -71,15 +70,12 @@ header nav a:last-child:hover {
 
 #hero {
     min-height: calc(100vh - 100px);
-    /* border: 5px solid red; */
     display: flex;
-
     align-items: center;
+
     justify-content: space-between;
     padding-left: 30px;
-
     margin-top: 55px;
-
 }
 
 .hero-content {
@@ -100,7 +96,7 @@ header nav a:last-child:hover {
     color: #ff6b00;
     font-size: 49px;
     font-weight: bolder;
-    
+
     margin-top: -5px;
 }
 
@@ -111,7 +107,6 @@ header nav a:last-child:hover {
 }
 
 .hero-image {
-    /* height: 750px; */
     width: 500px;
     padding-right: 25px;
 }
@@ -119,23 +114,20 @@ header nav a:last-child:hover {
 .hero-image img {
     width: 100%;
     display: block;
-    /* background-color: black; */
 }
 
 #testimonials {
     background-color: #171717;
-    /* color: #991B1B; */
     min-height: 80vh;
     padding: 25px;
-    display: flex;
 
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .testimonial-image {
     width: 350px;
-    /* display: block; */
     height: 350px;
 }
 
@@ -150,7 +142,6 @@ header nav a:last-child:hover {
     display: flex;
     flex-direction: column;
 
-    /* border: 3px solid yellow; */
     padding: 15px;
 }
 
@@ -208,12 +199,11 @@ span {
 
 #projects {
     min-height: 90vh;
-    /* border: 3px solid red; */
     padding: 25px;
+    align-items: center;
 
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -223,7 +213,6 @@ span {
     justify-content: center;
 
     align-items: center;
-    /* margin-top: -125px; */
     max-width: 1000px;
 }
 
@@ -247,11 +236,9 @@ span {
     display: flex;
     gap: 25px;
 
-    /* justify-content: center; */
 }
 
 .project-card {
-    /* border: 2px solid green; */
     width: 55vh;
     height: 45vh;
     
@@ -260,7 +247,6 @@ span {
     flex-direction: column;
 
     border-radius: 25px;
-    /* background-color: #252525; */
     transition: 0.6s ease;
     margin-top: 15px;
 }
@@ -316,7 +302,6 @@ span {
 
 .connect {
     display: flex;
-    /* flex-direction: column; */
     gap: 20px;
 }
 .connect a {
