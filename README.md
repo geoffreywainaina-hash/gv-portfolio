@@ -4,7 +4,8 @@ A collaborative web development project built by a team using HTML,CSS, and java
 
 ## Live Demo Link
  Here's a live link to our project 
- 
+
+ https://geoffreywainaina-hash.github.io/gv-portfolio/
 
 ## Technologies Used
 - HTML
